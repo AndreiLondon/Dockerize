@@ -8,7 +8,6 @@ one Dockerfile
 one image
 one container
 You must apply metadata to Docker objects.
-
 You have to take caution of unused object (often referred to as "garbage collection").
 
 Instructions:
@@ -18,10 +17,6 @@ The code must respect the good practices.
 You must use Docker.
 The project must have a Dockerfile.
 Your Dockerfile must respect the Dockerfile good practices.
-
-Usage:
-
-Usage
 
 This project will help you learn about :
 
