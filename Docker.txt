@@ -1,0 +1,63 @@
+What is Docker?
+Docker is a configuration management tool that is used to automate the deployment of software in lightweight containers. 
+These containers help applications to work efficiently in different environments.
+
+Features of Docker:
+
+- Easy and faster configuration
+- Application isolation
+- Security management
+- High productivity
+- High scalability
+- Infrastructure independent
+
+Docker container is a software package that has all the dependencies required to run an application.
+Note: A Docker Image is a template of instructions used to create containers
+
+Docker Image:
+A Docker Image is a read-only file with a bunch of instructions. When these instructions are executed, it creates a Docker container.
+
+Dockerfile:
+Dockerfile is a simple text file that consists of instructions to build Docker images.
+
+Mentioned below is the syntax of a Dockerfile:
+
+Syntax
+
+# comments
+
+command argument argument1...
+
+Example
+
+# Print "Get Certified. Get Ahead"
+
+Run echo "Get Certified. Get Ahead"
+
+List of Docker Commands for Creating a Dockerfile with example
+Before we create our first Dockerfile, it is important to understand what makes up the file. 
+
+Dockerfile consists of specific commands that guide you on how to build a specific Docker image. 
+
+The specific commands you can use in a dockerfile are:
+
+FROM, PULL, RUN, and CMD
+
+FROM - Creates a layer from the ubuntu:18.04
+PULL - Adds files from your Docker repository
+RUN - Builds your container
+CMD - Specifies what command to run within the container
+
+Mentioned below is an example of the dockerfile with the important commands
+
+FROM ubuntu:18.04
+
+PULL. /file
+
+RUN make /file
+
+CMD python /file/file.py 
+
+link https://www.simplilearn.com/tutorials/docker-tutorial/what-is-dockerfile#:~:text=To%20create%20a%20Dockerfile%2C%20set,finally%2C%20create%20a%20new%20image.
+
+
