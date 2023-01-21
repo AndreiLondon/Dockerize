@@ -33,3 +33,7 @@ The basics of web :
 - Containerizing an application.
 - Compatibility/Dependency.
 - Creating images.
+
+Commands
+FROM
+ADD
